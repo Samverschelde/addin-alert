@@ -269,7 +269,7 @@ function initMsal() {
       auth: {
         clientId:    CLIENT_ID,
         authority:   `https://login.microsoftonline.com/${TENANT_ID}`,
-        redirectUri: window.location.origin + "/addin/auth",
+        redirectUri: "https://samverschelde.github.io/addin-alert/taskpane.html",
       },
       cache: { cacheLocation: "localStorage" },
     });
